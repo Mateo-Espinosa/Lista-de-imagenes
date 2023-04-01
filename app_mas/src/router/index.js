@@ -4,6 +4,8 @@ import mainView from '@/views/mainView.vue'
 import helpView from '@/views/helpView.vue'
 import aboutView from '@/views/AboutView.vue'
 import contactView from '@/views/contactView.vue'
+import tiendaView from '@/views/cardView.vue'
+import consulServeView from '@/views/consulServe.vue'
 
 const routes = [
   {
@@ -12,7 +14,7 @@ const routes = [
     component: infoView
   },
   {
-    path: '/',
+    path: '/main',
     name: 'main',
     component: mainView
   },
@@ -30,7 +32,18 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: contactView
+  },
+  {
+    path: '/',
+    name: 'tienda',
+    component: tiendaView
+  },
+  {
+    path: '/imagenes',
+    name: 'imagenes',
+    component: consulServeView
   }
+
 
 ]
 

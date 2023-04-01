@@ -16,10 +16,11 @@ export default {
     data: () => ({ 
       drawer:false, 
         rutas: [
-        {nombre : "info", ruta : '/info'},
+        {nombre : "Tienda", ruta : '/'},
         {nombre : "about", ruta : '/about'},
         {nombre : "help", ruta : '/help'},
-        {nombre : "contact", ruta : '/contact'}
+        {nombre : "contact", ruta : '/contact'},
+        {nombre : "info", ruta : '/info'}
     ]
    }),
     methods: {
